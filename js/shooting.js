@@ -21,7 +21,7 @@ function preload(){
     queue = new createjs.LoadQueue(true);
     queue.loadManifest([
 
-        {id: "slimeSS", src:"spritesheets/Animations/slime.json"}
+        {id: "slimeSS", src:"spritesheets/slime.json"}
     ]);
     queue.addEventListener('progress', function(){
         console.log("hi mom");
